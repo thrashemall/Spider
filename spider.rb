@@ -17,8 +17,8 @@ Anemone.crawl(CONFIG['urls'], { :depth_limit => depth || false, :discard_page_bo
   redirect_count = 0
  
   puts "Baby spiders hatched. Kill them with CTRL-C"
-  # Header row
 
+  # Header row
   File.open(output_file, "w") { |f| f.puts("URL\tResponse Code\tContent Type") }
 
   # Data rows
