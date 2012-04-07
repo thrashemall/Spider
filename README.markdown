@@ -12,4 +12,4 @@ This will output a timestamped, tab-delimited file in the current directory, whi
 
 ### Notes
 
-This requires Redis, which can be installed via Homebrew: <code>brew install redis</code>
+This requires [Redis](http://redis.io), which can be installed via [Homebrew](http://mxcl.github.com/homebrew/): <code>brew install redis</code>
