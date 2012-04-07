@@ -6,7 +6,9 @@ A small Ruby script based on [Anemone](http://anemone.rubyforge.org). Used for s
 
 1. Update gems with <code>bundle install</code>
 1. Add the URLs you want to spider to config.yml. 
-1. run <code>ruby spider.rb</code>
+1. Run <code>ruby spider.rb</code>
+
+This will output a timestamped, tab-delimited file in the current directory, which can be manipulated in another program.
 
 ### Notes
 
