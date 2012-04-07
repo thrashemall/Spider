@@ -1,0 +1,14 @@
+# CONFIG
+
+# Comma separated list of URLs
+urls: [http://www.viget.com, http://viget.com]
+
+# Print output to console 
+console: true
+
+# Ignore links that contain a '#' character.
+# May cause issues with sites that rely on hash URLs 
+skip_hash_links: true   
+
+# Run only for pages that can be reached with one hop
+test_mode: false
