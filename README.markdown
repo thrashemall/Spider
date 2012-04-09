@@ -16,7 +16,7 @@ Running spider will output a timestamped, tab-delimited file in the current dire
 
 The following settings may be manipulated in <code>config.yml</code>:
 
-* *urls* (array) : a comma separated list of URLs to spider. For most sites, you'll want to include the 'www' subdomain also.
-* *console* (boolean) : writes each page spidered to the terminal, matrix-style. Useful for knowing if it's running or not. 
-* *skip_hash_links* (boolean) : ignore hash anchors links like http://example.com#main-content. If the site relies on hash URLs, you might have a bad time. 
-* *test_mode* (boolean) : limits the depth of the search to only those pages that can be reached in one hop. Useful for checking if the spider likes your URLs before you commit to launching it. 
+* _urls_ (array) : a comma-separated list of URLs to spider. For most sites, you'll want to include the 'www' subdomain also.
+* _console_ (boolean) : writes each page spidered to the terminal, matrix-style. Useful for knowing if it's running or not. 
+* _skip_hash_links_ (boolean) : ignore hash anchor links like http://example.com#main-content. If the site relies on hash URLs, you might have a bad time. 
+* _test_mode_ (boolean) : limits the depth of the search to only those pages that can be reached in one hop. Useful for checking if the spider likes your URLs before you commit to launching it. 
